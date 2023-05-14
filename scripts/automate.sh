@@ -79,7 +79,7 @@ restart_nodes_in_bg
 echo
 wait_until_socket_detected
 
-#run_update_script "1"
+run_update_script "1"
 
 #query_tip
 cli_version=$(cardano-cli version)

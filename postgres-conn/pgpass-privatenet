@@ -1,1 +1,1 @@
-/var/run/postgresql:5432:privatenet:*:*
+127.0.0.1:15432:privatenet:user:password
